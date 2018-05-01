@@ -1,0 +1,50 @@
+﻿  Generating map file for help compiler...
+  Making help file...
+  已复制         1 个文件。
+  
+  StdAfx.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include\afx.h(33): note: see declaration of 'MBCS_Support_Deprecated_In_MFC'
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+  ChildFrm.cpp
+  CpuDlg.cpp
+  EcmDlg.cpp
+  HyperLink.cpp
+HyperLink.cpp(139): warning C4311: 'type cast': pointer truncation from 'HINSTANCE' to 'int'
+HyperLink.cpp(139): warning C4302: 'type cast': truncation from 'HINSTANCE' to 'int'
+HyperLink.cpp(465): warning C4311: 'type cast': pointer truncation from 'HINSTANCE' to 'UINT'
+HyperLink.cpp(465): warning C4302: 'type cast': truncation from 'HINSTANCE' to 'UINT'
+HyperLink.cpp(487): warning C4312: 'type cast': conversion from 'UINT' to 'HINSTANCE' of greater size
+  MainFrm.cpp
+  ManualCommDlg.cpp
+  Pminus1Dlg.cpp
+  PreferencesDlg.cpp
+  Prime95.cpp
+  Prime95Doc.cpp
+E:\tiny\software\prime95\Prime95_v2810\p95v2810.source\commonb.c(6568): warning C4312: 'type cast': conversion from 'unsigned long' to 'void *' of greater size
+E:\tiny\software\prime95\Prime95_v2810\p95v2810.source\comm95b.c(27): warning C4996: 'GetVersionExA': was declared deprecated
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\sysinfoapi.h(436): note: see declaration of 'GetVersionExA'
+E:\tiny\software\prime95\Prime95_v2810\p95v2810.source\comm95b.c(40): warning C4996: 'GetVersionExA': was declared deprecated
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\sysinfoapi.h(436): note: see declaration of 'GetVersionExA'
+E:\tiny\software\prime95\Prime95_v2810\p95v2810.source\comm95b.c(54): warning C4996: 'GetVersionExA': was declared deprecated
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\sysinfoapi.h(436): note: see declaration of 'GetVersionExA'
+E:\tiny\software\prime95\Prime95_v2810\p95v2810.source\primenet.c(86): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winsock2.h(1830): note: see declaration of 'inet_addr'
+E:\tiny\software\prime95\Prime95_v2810\p95v2810.source\primenet.c(321): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winsock2.h(2218): note: see declaration of 'gethostbyname'
+E:\tiny\software\prime95\Prime95_v2810\p95v2810.source\primenet.c(340): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winsock2.h(1848): note: see declaration of 'inet_ntoa'
+  Prime95View.cpp
+  PrimenetDlg.cpp
+  StartDlg.cpp
+  StopDlg.cpp
+  TestDlg.cpp
+  TimeDlg.cpp
+  TortureDlg.cpp
+  UnreserveDlg.cpp
+  WelcomeDlg.cpp
+  WorkerDlg.cpp
+  Generating Code...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(E:\tiny\software\prime95\Prime95_v2810\p95v2810.source\prime95\amd64\Debug\prime95.exe) does not match the Linker's OutputFile property value (E:\tiny\software\prime95\Prime95_v2810\p95v2810.source\prime95\x64\Debug\prime95.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+  prime95.vcxproj -> E:\tiny\software\prime95\Prime95_v2810\p95v2810.source\prime95\amd64\Debug\prime95.exe
+  prime95.vcxproj -> .\x64\Debug/prime95.pdb (Full PDB)
